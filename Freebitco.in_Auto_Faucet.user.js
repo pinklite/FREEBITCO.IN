@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Freebitco.in Auto Faucet
-// @github       http://github.com/Topherick
+// @github       http://github.com/pinklite
 // @version      1.0
-// @description  feel free to donate: 1P7EX7yddNhUVzXZ8FqHVpGqv2CtoKcUxm
-// @author       Topherick
+// @description  feel free to donate: 3CWeUpiFs8XPWx7KKahGSr6zvNANJc3TKw
+// @author       pinklite
 // @match        https://freebitco.in/*
 // @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
@@ -76,7 +76,7 @@ body.prepend(
             $('<div/>').attr('id','autofaucet')
                 .append($('<p/>').attr('style','text-decoration:underline;').text("freebitco.in Auto Faucet by Topherick"))
                 .append($('<p/>').text("If you like it, consider a Donation to "))
-                .append($('<p/>').text("1P7EX7yddNhUVzXZ8FqHVpGqv2CtoKcUxm"))
+                .append($('<p/>').text("3CWeUpiFs8XPWx7KKahGSr6zvNANJc3TKw
                 .append($('<p/>').text("(click to copy address)"))
                 .append($('<p/>')
                     .append($('<p/>').text("Current Features:"))
@@ -85,7 +85,7 @@ body.prepend(
                     .append($('<p/>').text("(according to Highest rewards/BTC Bonus)"))
                 )
         ).click(function(){
-        var $temp = $('<input>').val("1P7EX7yddNhUVzXZ8FqHVpGqv2CtoKcUxm");
+        var $temp = $('<input>').val("3CWeUpiFs8XPWx7KKahGSr6zvNANJc3TKw);
         body.append($temp);
         $temp.select();
         document.execCommand("copy");
