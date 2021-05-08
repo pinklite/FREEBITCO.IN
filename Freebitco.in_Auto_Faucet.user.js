@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Freebitco.in Auto Faucet
-// @github       http://github.com/pinklite
+// @github       http://github.com/Topherick
 // @version      1.0
 // @description  feel free to donate: 3CWeUpiFs8XPWx7KKahGSr6zvNANJc3TKw
 // @author       pinklite
